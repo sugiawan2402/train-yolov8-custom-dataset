@@ -14,5 +14,10 @@ Next, add the data to your newly created project. You can do it via API or throu
 If you drag and drop a directory with a dataset in a supported format, the Roboflow dashboard will automatically read the images and annotations together.
 ![uploading-images](https://user-images.githubusercontent.com/55156159/218303773-39f48f49-bbc3-45d5-b373-09a05fe9fce7.gif)
 
+#Step 3: Labeling
+
+If you only have images, you can label them in Roboflow Annotate.
+![210901980-04861efd-dfc0-4a01-9373-13a36b5e1df4](https://user-images.githubusercontent.com/55156159/218303833-36432f74-700d-40f9-836e-fbb736e07429.gif)
+
 
 
