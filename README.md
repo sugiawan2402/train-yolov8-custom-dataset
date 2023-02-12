@@ -20,4 +20,12 @@ If you only have images, you can label them in Roboflow Annotate.
 ![210901980-04861efd-dfc0-4a01-9373-13a36b5e1df4](https://user-images.githubusercontent.com/55156159/218303833-36432f74-700d-40f9-836e-fbb736e07429.gif)
 
 
+#Step 4: Generate new dataset version
 
+Now that we have our images and annotations added, we can Generate a Dataset Version. When Generating a Version, you may elect to add preprocessing and augmentations. This step is completely optional, however, it can allow you to significantly improve the robustness of your model.
+![generate-new-version](https://user-images.githubusercontent.com/55156159/218303867-33b9544e-aaf4-45cf-8791-d78fdb5ca3c8.gif)
+
+#Step 5: Exporting dataset
+
+Once the dataset version is generated, we have a hosted dataset we can load directly into our notebook for easy training. Click Export and select the YOLO v5 PyTorch dataset format.
+![export](https://user-images.githubusercontent.com/55156159/218303890-456cccba-f32f-4ca5-a947-f5803e0d85ab.gif)
